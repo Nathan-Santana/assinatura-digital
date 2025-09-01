@@ -1,0 +1,22 @@
+Arquivos de ambiente Python
+pycache/
+*.pyc
+*.pyo
+
+Ambiente virtual
+venv/
+env/
+.env
+
+Banco de dados e mídias
+db.sqlite3
+media/
+
+Arquivos de sistema e de editores
+.DS_Store
+Thumbs.db
+.vscode/
+
+Logs e arquivos de cache
+*.log
+*.sqlite3-journal
