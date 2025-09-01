@@ -52,7 +52,7 @@ Siga os passos abaixo para configurar e rodar a aplicação em sua máquina.
 ### 1. Clone o Repositório:
 
 ```python
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+git clone [https://github.com/Nathan-Santana/assinatura-digital.git](https://github.com/Nathan-Santana/assinatura-digital.git)
 cd assinatura_digital
 ```
 ### 2. Crie e Ative um Ambiente Virtual:
