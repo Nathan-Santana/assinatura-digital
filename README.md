@@ -98,4 +98,26 @@ No navegador, acesse a aplicação através de `127.0.0.1:8000`
 
 * **Resposta:** Retorna `VÁLIDA` ou `INVÁLIDA`.
 
+## Casos de Teste
+
+Para validar a implementação, execute os seguintes casos de teste:
+
+* **Teste de Validação Positiva (Sucesso):**
+
+1. Cadastre um novo usuário.
+
+2. Assine uma mensagem qualquer.
+
+3. Copie a `mensagem`, a `assinatura` e o `username` gerados.
+
+4. Cole os dados na área de verificação e clique em `Verificar`. O sistema deve retornar **"VÁLIDA"**.
+
+* **Teste de Validação Negativa (Falha):**
+
+1. Repita os passos 1 e 2 do teste positivo.
+
+2. Na área de verificação, cole a `mensagem` e a `assinatura`, mas **altere um único caractere da mensagem original**.
+
+3. Clique em `Verificar`. O sistema deve retornar **"INVÁLIDA"**.
+
 [Se gostou do meu trabalho, entre em contato](https://www.linkedin.com/in/nathan-santana-dev-fs)
